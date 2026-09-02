@@ -24,18 +24,21 @@ Format:
 Name_S
 My Folder:
 
-│
-├── Name_S/
-│   ├── Week_1/
-│   │   ├── Task_1/
-│   │   ├── Task_2/
-│   │   └── Practice/
-│   ├── Week_2/
+│ 
+├ ── Name_S/
+
+│   ├ ── Week_1/
+
+│   │   ├ ── Task_1/
+
+│   │   ├ ── Task_2/
+│   │   └ ── Practice/
+│   ├ ── Week_2/
 │      └── Task_1/
-└── AnotherName_S654321/
-    └── Week_1/
+└ ── AnotherName_S654321/
+    └ ── Week_1/
         ├── Task_1/
-        └── Practice/
+        └ ── Practice/
 
 
 Weekly Commit Routine
