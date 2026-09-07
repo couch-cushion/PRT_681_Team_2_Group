@@ -1,28 +1,28 @@
-\# Career Preparation — Part A: Market Research
+# Career Preparation — Part A: Market Research
 
 
 
-\*\*Student:\*\* Deepjan Thapaliya
+**Student:** Deepjan Thapaliya
 
-\*\*Student ID:\*\* S395373
+**Student ID:** S395373
 
-\*\*Overall university week:\*\* Week 6
+**Overall university week:** Week 6
 
-\*\*Assignment 2 learning week:\*\* Week 1
+**Assignment 2 learning week:** Week 1
 
-\*\*Research date:\*\* 7 September 2026
+**Research date:** 7 September 2026
 
-\*\*Status:\*\* Market research completed; skills/resources table and learning plan in progress.
-
-
-
-\## 1. Target Roles
+**Status:** Market research completed; skills/resources table and learning plan in progress.
 
 
 
-\*\*Role 1:\*\* Junior .NET / Full-Stack Software Developer
+## 1. Target Roles
 
-\*\*Role 2:\*\* Junior Software Tester / QA Analyst
+
+
+**Role 1:** Junior .NET / Full-Stack Software Developer
+
+**Role 2:** Junior Software Tester / QA Analyst
 
 
 
@@ -30,7 +30,7 @@ I selected these roles because I want to develop a career in software engineerin
 
 
 
-\## 2. Research Method
+## 2. Research Method
 
 
 
@@ -42,7 +42,7 @@ I reviewed job titles, responsibilities, required and desirable skills, technolo
 
 
 
-\### Search observations
+### Search observations
 
 
 
@@ -66,27 +66,27 @@ These figures describe the searches I performed on the research date. They are n
 
 
 
-\## 3. Role 1 — Software Developer Research
+## 3. Role 1 — Software Developer Research
 
 
 
-\### Advertisement D1: Integration .Net Developer
+### Advertisement D1: Integration .Net Developer
 
 
 
-\*\*Employer:\*\* Centorrino Technologies Pty Ltd
+**Employer:** Centorrino Technologies Pty Ltd
 
-\*\*Location:\*\* Darwin, Northern Territory
+**Location:** Darwin, Northern Territory
 
-\*\*Employment:\*\* Contract/Temp, 12-month fixed term
+**Employment:** Contract/Temp, 12-month fixed term
 
-\*\*Experience level:\*\* Experienced role, not junior
+**Experience level:** Experienced role, not junior
 
-\*\*Sources:\*\* LinkedIn and SEEK
+**Sources:** LinkedIn and SEEK
 
 
 
-\### Responsibilities
+### Responsibilities
 
 
 
@@ -94,7 +94,7 @@ The role involves designing, developing and supporting integrations between syst
 
 
 
-\### Required skills and technologies
+### Required skills and technologies
 
 
 
@@ -118,15 +118,15 @@ The role involves designing, developing and supporting integrations between syst
 
 
 
-\### Qualifications and experience
+### Qualifications and experience
 
 
 
-The advertisement requests a relevant IT, Computer Science or Software Engineering qualification, or equivalent professional experience. It also requires \*\*5+ years of commercial C#/.NET development and integration experience\*\*. No named technical certification is specified.
+The advertisement requests a relevant IT, Computer Science or Software Engineering qualification, or equivalent professional experience. It also requires **5+ years of commercial C#/.NET development and integration experience**. No named technical certification is specified.
 
 
 
-\### Desirable skills
+### Desirable skills
 
 
 
@@ -134,179 +134,179 @@ Experience with WPF/XAML, web applications or single-page applications is advant
 
 
 
-\### Research interpretation
+### Research interpretation
 
 
 
-This is not an entry-level vacancy. I will use it as a \*\*long-term technical benchmark\*\* rather than claim that junior developers require five years of experience. It shows the importance of building strong C#/.NET foundations and progressing toward APIs, testing, architecture, integration and professional development practices.
+This is not an entry-level vacancy. I will use it as a **long-term technical benchmark** rather than claim that junior developers require five years of experience. It shows the importance of building strong C#/.NET foundations and progressing toward APIs, testing, architecture, integration and professional development practices.
 
 
 
-\*\*Source D1:\*\* https://au.seek.com/job/93881851
+**Source D1:** https://au.seek.com/job/93881851
 
-\*\*Additional source:\*\* https://www.linkedin.com/jobs/view/4451387575/
+**Additional source:** https://www.linkedin.com/jobs/view/4451387575/
 
 
 
-\## 4. Role 2 — Software Tester / QA Analyst Research
+## 4. Role 2 — Software Tester / QA Analyst Research
 
 
 
-\### Advertisement T1: Test Analyst — Bailey Abbott
+### Advertisement T1: Test Analyst — Bailey Abbott
 
 
 
-\*\*Location:\*\* Darwin, NT
+**Location:** Darwin, NT
 
-\*\*Employment:\*\* 6-month contract
+**Employment:** 6-month contract
 
-\*\*Experience level:\*\* Experienced Test Analyst
+**Experience level:** Experienced Test Analyst
 
 
 
-\*\*Responsibilities:\*\* Develop and execute test cases, scripts and scenarios; review requirements; perform system, integration, regression and production verification testing; support UAT; manage defects; prepare test data and documentation; and report testing progress.
+**Responsibilities:** Develop and execute test cases, scripts and scenarios; review requirements; perform system, integration, regression and production verification testing; support UAT; manage defects; prepare test data and documentation; and report testing progress.
 
 
 
-\*\*Required skills:\*\* Testing methodologies, SDLC, test planning, Jira or Azure DevOps, SQL/data validation, analytical skills, troubleshooting and stakeholder communication.
+**Required skills:** Testing methodologies, SDLC, test planning, Jira or Azure DevOps, SQL/data validation, analytical skills, troubleshooting and stakeholder communication.
 
 
 
-\*\*Qualifications:\*\* Relevant tertiary qualification. ISTQB Foundation or equivalent testing qualification is highly regarded.
+**Qualifications:** Relevant tertiary qualification. ISTQB Foundation or equivalent testing qualification is highly regarded.
 
 
 
-\*\*Source T1:\*\* https://www.linkedin.com/jobs/view/4459107675/
+**Source T1:** https://www.linkedin.com/jobs/view/4459107675/
 
 
 
-\### Advertisement T2: Test Analyst — Centorrino Technologies
+### Advertisement T2: Test Analyst — Centorrino Technologies
 
 
 
-\*\*Location:\*\* Darwin, NT
+**Location:** Darwin, NT
 
-\*\*Experience level:\*\* Experienced Test Analyst
+**Experience level:** Experienced Test Analyst
 
 
 
-\*\*Responsibilities:\*\* Plan, design and execute testing activities; analyse requirements; develop test cases and plans; perform functional, system, integration, regression and UAT testing; investigate defects; validate test data; maintain traceability and report outcomes.
+**Responsibilities:** Plan, design and execute testing activities; analyse requirements; develop test cases and plans; perform functional, system, integration, regression and UAT testing; investigate defects; validate test data; maintain traceability and report outcomes.
 
 
 
-\*\*Required skills:\*\* Software testing methodologies, SDLC, Jira/Azure DevOps, SQL, requirements analysis, defect investigation, documentation and communication.
+**Required skills:** Software testing methodologies, SDLC, Jira/Azure DevOps, SQL, requirements analysis, defect investigation, documentation and communication.
 
 
 
-\*\*Qualifications:\*\* Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification are listed.
+**Qualifications:** Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification are listed.
 
 
 
-\*\*Source T2:\*\* https://www.linkedin.com/jobs/view/4459098926/
+**Source T2:** https://www.linkedin.com/jobs/view/4459098926/
 
 
 
-\### Advertisement T3: Test Analyst — Cathara Consulting
+### Advertisement T3: Test Analyst — Cathara Consulting
 
 
 
-\*\*Location:\*\* Darwin, NT (Hybrid)
+**Location:** Darwin, NT (Hybrid)
 
-\*\*Employment:\*\* 6-month contract
+**Employment:** 6-month contract
 
-\*\*Experience level:\*\* Experienced Test Analyst
+**Experience level:** Experienced Test Analyst
 
 
 
-\*\*Responsibilities:\*\* Execute test cases, scripts and scenarios; review business, functional and technical requirements; perform system, integration, regression and UAT testing; manage defects; prepare testing documentation and test data; and report risks and outcomes.
+**Responsibilities:** Execute test cases, scripts and scenarios; review business, functional and technical requirements; perform system, integration, regression and UAT testing; manage defects; prepare testing documentation and test data; and report risks and outcomes.
 
 
 
-\*\*Required skills:\*\* Testing methodologies, SDLC, test plans/cases/scripts, Jira or Azure DevOps, SQL, data validation, requirements analysis, troubleshooting and communication.
+**Required skills:** Testing methodologies, SDLC, test plans/cases/scripts, Jira or Azure DevOps, SQL, data validation, requirements analysis, troubleshooting and communication.
 
 
 
-\*\*Qualifications:\*\* Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification.
+**Qualifications:** Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification.
 
 
 
-\*\*Desirable skills:\*\* Complex integrations, Agile/DevOps, test automation, non-functional testing and government experience.
+**Desirable skills:** Complex integrations, Agile/DevOps, test automation, non-functional testing and government experience.
 
 
 
-\*\*Source T3:\*\* https://au.seek.com/job/94209758
+**Source T3:** https://au.seek.com/job/94209758
 
 
 
-\### Advertisement T4: Test Analyst — MYtech Consulting Services
+### Advertisement T4: Test Analyst — MYtech Consulting Services
 
 
 
-\*\*Location:\*\* Darwin, NT
+**Location:** Darwin, NT
 
-\*\*Employment:\*\* The detailed description states a 6-month fixed-term contract; the search-result summary refers to 12 months.
+**Employment:** The detailed description states a 6-month fixed-term contract; the search-result summary refers to 12 months.
 
-\*\*Experience level:\*\* Experienced Test Analyst
+**Experience level:** Experienced Test Analyst
 
 
 
-\*\*Responsibilities:\*\* End-to-end testing, requirements analysis, test design and execution, defect management, test-data validation, documentation, reporting and collaboration with project teams.
+**Responsibilities:** End-to-end testing, requirements analysis, test design and execution, defect management, test-data validation, documentation, reporting and collaboration with project teams.
 
 
 
-\*\*Required skills:\*\* Testing methodologies, SDLC, Jira/Azure DevOps, SQL, functional/integration/regression/UAT testing, defect investigation and communication.
+**Required skills:** Testing methodologies, SDLC, Jira/Azure DevOps, SQL, functional/integration/regression/UAT testing, defect investigation and communication.
 
 
 
-\*\*Qualifications:\*\* Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification.
+**Qualifications:** Relevant tertiary qualification and ISTQB Foundation or equivalent testing qualification.
 
 
 
-\*\*Desirable skills:\*\* Government or regulated environments, complex integrations, Agile/DevOps, automation and non-functional testing.
+**Desirable skills:** Government or regulated environments, complex integrations, Agile/DevOps, automation and non-functional testing.
 
 
 
-\*\*Additional eligibility:\*\* The advertisement specifies National Police Clearance, PF166 and continuous residence in Australia for at least five years for its screening requirements. These are position-specific conditions, not software-testing skills.
+**Additional eligibility:** The advertisement specifies National Police Clearance, PF166 and continuous residence in Australia for at least five years for its screening requirements. These are position-specific conditions, not software-testing skills.
 
 
 
-\*\*Source T4:\*\* https://au.seek.com/job/94206319
+**Source T4:** https://au.seek.com/job/94206319
 
 
 
-\### Advertisement T5: Test Analyst — Powerdata Group Consulting
+### Advertisement T5: Test Analyst — Powerdata Group Consulting
 
 
 
-\*\*Location:\*\* Darwin, NT
+**Location:** Darwin, NT
 
-\*\*Employment:\*\* Initial 6-month contract
+**Employment:** Initial 6-month contract
 
-\*\*Experience level:\*\* Experienced Test Analyst
+**Experience level:** Experienced Test Analyst
 
 
 
-\*\*Responsibilities:\*\* Test planning, design and execution; requirements analysis; system, integration, regression and UAT testing; defect management; test-data validation; traceability; reporting and collaboration.
+**Responsibilities:** Test planning, design and execution; requirements analysis; system, integration, regression and UAT testing; defect management; test-data validation; traceability; reporting and collaboration.
 
 
 
-\*\*Required skills:\*\* SDLC, testing methodologies, test plans/cases/scripts, Jira/Azure DevOps, SQL, requirements analysis, troubleshooting and documentation.
+**Required skills:** SDLC, testing methodologies, test plans/cases/scripts, Jira/Azure DevOps, SQL, requirements analysis, troubleshooting and documentation.
 
 
 
-\*\*Qualifications:\*\* Relevant tertiary qualification and ISTQB Foundation or equivalent testing certification.
+**Qualifications:** Relevant tertiary qualification and ISTQB Foundation or equivalent testing certification.
 
 
 
-\*\*Desirable skills:\*\* Government/law-enforcement experience, enterprise integrations, Agile/DevOps, automation and non-functional testing.
+**Desirable skills:** Government/law-enforcement experience, enterprise integrations, Agile/DevOps, automation and non-functional testing.
 
 
 
-\*\*Source T5:\*\* https://au.seek.com/job/94291992
+**Source T5:** https://au.seek.com/job/94291992
 
 
 
-\## 5. Additional Entry-Level Testing Opportunities
+## 5. Additional Entry-Level Testing Opportunities
 
 
 
@@ -330,7 +330,7 @@ The full requirements of these three advertisements have not yet been analysed. 
 
 
 
-\*\*Sources:\*\*
+**Sources:**
 
 https://au.seek.com/job/94310847
 
@@ -340,11 +340,11 @@ https://au.seek.com/job/94377490
 
 
 
-\## 6. Comparison of Employer Requirements
+## 6. Comparison of Employer Requirements
 
 
 
-\### Software Developer
+### Software Developer
 
 
 
@@ -352,7 +352,7 @@ The reviewed .NET advertisement emphasises C#/.NET, APIs, integration, unit test
 
 
 
-\### Software Tester / QA Analyst
+### Software Tester / QA Analyst
 
 
 
@@ -386,11 +386,11 @@ Automation, non-functional testing, Agile/DevOps and complex integration experie
 
 
 
-\## 7. Certifications and Training Findings
+## 7. Certifications and Training Findings
 
 
 
-For the experienced Test Analyst roles reviewed, \*\*ISTQB Foundation or an equivalent testing qualification\*\* is repeatedly mentioned. Bailey Abbott describes it as highly regarded, while several other advertisements list it among their requirements.
+For the experienced Test Analyst roles reviewed, **ISTQB Foundation or an equivalent testing qualification** is repeatedly mentioned. Bailey Abbott describes it as highly regarded, while several other advertisements list it among their requirements.
 
 
 
@@ -398,11 +398,11 @@ The .NET advertisement requests a relevant qualification or equivalent professio
 
 
 
-I will record these as \*\*market research findings\*\*, not as qualifications I already hold. Only genuinely completed courses and certifications will be included as completed training on my resume.
+I will record these as **market research findings**, not as qualifications I already hold. Only genuinely completed courses and certifications will be included as completed training on my resume.
 
 
 
-\## 8. Other Search Results
+## 8. Other Search Results
 
 
 
@@ -410,7 +410,7 @@ Some searches returned occupations outside my two target roles, including Servic
 
 
 
-\## 9. Initial Learning Needs
+## 9. Initial Learning Needs
 
 
 
@@ -418,23 +418,23 @@ Based on the advertisements, my career preparation should focus on:
 
 
 
-\*\*Developer pathway:\*\* Strengthen C#/.NET and SQL, then build practical understanding of APIs, testing, Git, architecture and integration. Frontend technologies will be investigated through additional role research and the assigned developer learning tasks.
+**Developer pathway:** Strengthen C#/.NET and SQL, then build practical understanding of APIs, testing, Git, architecture and integration. Frontend technologies will be investigated through additional role research and the assigned developer learning tasks.
 
 
 
-\*\*Tester pathway:\*\* Learn testing fundamentals, requirements-based test design, test cases and plans, Jira, SQL validation, defect reporting and introductory automation.
+**Tester pathway:** Learn testing fundamentals, requirements-based test design, test cases and plans, Jira, SQL validation, defect reporting and introductory automation.
 
 
 
-My existing software-engineering study is useful background, but I will distinguish between \*\*already practised\*\*, \*\*currently learning\*\*, and \*\*not yet studied\*\*. I will not mark assignment courses or practical tasks as completed simply because I have encountered similar topics elsewhere.
+My existing software-engineering study is useful background, but I will distinguish between **already practised**, **currently learning**, and **not yet studied**. I will not mark assignment courses or practical tasks as completed simply because I have encountered similar topics elsewhere.
 
 
 
-\## 10. Next Steps
+## 10. Next Steps
 
 
 
-The next Part A tasks are to prepare a \*\*Skills \& Resources table for each role\*\*, build the required \*\*3-week learning plan\*\*, and write \*\*3–4-line notes for each tool learned\*\*.
+The next Part A tasks are to prepare a **Skills & Resources table for each role**, build the required **3-week learning plan**, and write **3–4-line notes for each tool learned**.
 
 
 
@@ -442,9 +442,8 @@ The professor’s specific learning links will be used where provided. Where no 
 
 
 
-\## AI Assistance Acknowledgement
+## AI Assistance Acknowledgement
 
 
 
 I collected the job-search results and advertisement descriptions. ChatGPT assisted with organising the research, comparing requirements and improving the wording. I will review the final document and ensure that my learning, practical work and resume claims accurately represent my own work.
-
