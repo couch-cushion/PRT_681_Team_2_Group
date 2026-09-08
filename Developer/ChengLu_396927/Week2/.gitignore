@@ -1,0 +1,15 @@
+bin/
+obj/
+
+# Local SQLite data
+*.db
+*.db-shm
+*.db-wal
+
+# React dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Local IDE files
+.vscode/*.log
+.DS_Store

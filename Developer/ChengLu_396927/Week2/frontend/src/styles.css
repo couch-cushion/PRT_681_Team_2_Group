@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root {
+  color: #24231f;
+  background: #f5f2eb;
+  font-family: 'DM Sans', sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+
+.page-shell { min-height: 100vh; background: radial-gradient(circle at 90% 8%, #e2e7d6 0, transparent 28%), #f5f2eb; }
+.hero { max-width: 1180px; margin: 0 auto; padding: 56px 42px 64px; }
+.eyebrow, .section-label, .task-count { color: #70766a; font: 500 11px 'DM Mono', monospace; letter-spacing: .11em; }
+.eyebrow { margin: 0 0 46px; }
+.hero-row { display: flex; align-items: end; justify-content: space-between; gap: 36px; }
+h1 { margin: 0; font-size: clamp(52px, 7vw, 94px); line-height: .94; letter-spacing: -.05em; font-weight: 500; }
+h1 em { color: #66734d; font-family: 'Playfair Display', serif; font-weight: 600; }
+.hero-copy { max-width: 340px; margin: 28px 0 0; color: #707066; font-size: 16px; line-height: 1.55; }
+.progress-mark { display: flex; align-items: end; gap: 12px; padding-bottom: 6px; color: #66734d; }
+.progress-mark strong { font: 500 62px/.8 'DM Mono', monospace; letter-spacing: -.08em; }
+.progress-mark span { color: #85887d; font: 11px/1.4 'DM Mono', monospace; text-transform: uppercase; }
+
+.workspace { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 92px; max-width: 1180px; margin: 0 auto; padding: 48px 42px 80px; border-top: 1px solid #d9d8cf; }
+.section-label { margin-bottom: 22px; }
+label { display: block; margin-bottom: 19px; }
+label span { display: block; margin-bottom: 8px; font-size: 13px; font-weight: 500; }
+label small { color: #999b90; font-size: 11px; font-weight: 400; }
+input, textarea { width: 100%; border: 1px solid #d5d5cb; border-radius: 2px; padding: 13px 14px; color: #24231f; background: rgba(255,255,255,.34); outline: none; transition: border-color .2s, background .2s; }
+input:focus, textarea:focus { border-color: #66734d; background: #fffdf8; }
+textarea { resize: vertical; min-height: 85px; }
+input::placeholder, textarea::placeholder { color: #a6a79c; }
+.primary-button { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: 25px; border: 0; border-radius: 2px; padding: 14px 16px; color: #f8f7f1; background: #66734d; font-weight: 700; transition: background .2s, transform .2s; }
+.primary-button:hover:not(:disabled) { background: #4e5c39; transform: translateY(-2px); }
+.primary-button:disabled { cursor: not-allowed; opacity: .45; }
+.primary-button span { font-size: 20px; font-weight: 400; }
+
+.list-heading { display: flex; align-items: end; justify-content: space-between; border-bottom: 1px solid #d9d8cf; padding-bottom: 19px; }
+.list-heading .section-label { margin-bottom: 12px; }
+h2 { margin: 0; font-size: 28px; letter-spacing: -.04em; font-weight: 500; }
+.task-count { padding-bottom: 4px; }
+.tasks { border-bottom: 1px solid #d9d8cf; }
+.task-item { display: flex; align-items: center; gap: 16px; min-height: 88px; border-bottom: 1px solid #e1e0d8; }
+.task-item:last-child { border-bottom: 0; }
+.check-button { flex: 0 0 21px; width: 21px; height: 21px; border: 1px solid #a6ad98; border-radius: 50%; color: #fff; background: transparent; font-size: 12px; line-height: 18px; }
+.completed .check-button { border-color: #66734d; background: #66734d; }
+.task-content { flex: 1; min-width: 0; }
+.task-content h3 { margin: 0 0 4px; overflow-wrap: anywhere; font-size: 16px; font-weight: 500; }
+.task-content p { margin: 0; overflow-wrap: anywhere; color: #818178; font-size: 13px; }
+.completed h3 { color: #999b90; text-decoration: line-through; }
+.delete-button { border: 0; padding: 8px; color: #a2a49a; background: transparent; font-size: 24px; font-weight: 300; line-height: 1; }
+.delete-button:hover { color: #9b5745; }
+.empty-state, .error-message { margin-top: 20px; padding: 22px; border: 1px dashed #d3d3c9; color: #888a80; font-size: 14px; }
+.error-message { border-style: solid; border-color: #d9a79a; color: #9b5745; background: #fbefeb; }
+
+@media (max-width: 720px) {
+  .hero { padding: 34px 22px 48px; }
+  .eyebrow { margin-bottom: 38px; }
+  .hero-row { align-items: start; flex-direction: column; }
+  .progress-mark { align-self: end; }
+  .workspace { display: block; padding: 34px 22px 60px; }
+  .new-task { margin-bottom: 58px; }
+  h1 { font-size: 58px; }
+}
