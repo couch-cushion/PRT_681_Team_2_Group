@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.db
+*.db-*
+*.user
+*.suo
+.env
+.env.*
+Open Notebook.onetoc2
