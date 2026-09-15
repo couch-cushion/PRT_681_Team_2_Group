@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "启动 hello",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/hello.dll",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "构建 hello"
+    }
+  ]
+}
