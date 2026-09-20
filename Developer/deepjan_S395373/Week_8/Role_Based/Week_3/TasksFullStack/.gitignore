@@ -8,3 +8,5 @@
 *.db-wal
 .env
 .env.*
+
+*.onetoc2
