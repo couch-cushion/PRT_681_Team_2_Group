@@ -1,0 +1,29 @@
+@{
+    Layout = null;
+    var architecture = ViewData["Architecture"] as string;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #eef2f7; color: #172033; }
+        main { max-width: 760px; margin: 50px auto; background: white; padding: 30px; border-radius: 16px; box-shadow: 0 14px 40px rgba(0,0,0,.08); }
+        code { background: #eef2f7; padding: 2px 6px; border-radius: 5px; }
+        a { color: #214c8c; }
+    </style>
+</head>
+<body>
+<main>
+    <p><strong>PRT681 / PRT585 — Developer Week 3</strong></p>
+    <h1>ASP.NET Core MVC Learning Page</h1>
+    <p>@architecture</p>
+    <h2>Request flow</h2>
+    <p><code>/mvc</code> → routing → <code>LearningController.Index()</code> → Razor view → HTML response.</p>
+    <p>This page exists beside the React SPA and REST API to demonstrate the MVC pattern learned in Week 8.</p>
+    <p><a href="/">Return to React Tasks app</a></p>
+</main>
+</body>
+</html>
