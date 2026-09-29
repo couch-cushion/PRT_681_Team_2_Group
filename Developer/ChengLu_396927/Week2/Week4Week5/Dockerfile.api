@@ -1,0 +1,13 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
+WORKDIR /src
+COPY backend/Week4Week5.Api/Week4Week5.Api.csproj backend/Week4Week5.Api/
+RUN dotnet restore backend/Week4Week5.Api/Week4Week5.Api.csproj
+COPY backend/Week4Week5.Api/ backend/Week4Week5.Api/
+RUN dotnet publish backend/Week4Week5.Api/Week4Week5.Api.csproj -c Release -o /app/publish --no-restore
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS runtime
+WORKDIR /app
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "Week4Week5.Api.dll"]

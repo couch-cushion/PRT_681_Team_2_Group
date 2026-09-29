@@ -1,0 +1,9 @@
+.git
+.next
+node_modules
+backend/**/bin
+backend/**/obj
+.env
+.env.*
+npm-debug.log*
+README.md

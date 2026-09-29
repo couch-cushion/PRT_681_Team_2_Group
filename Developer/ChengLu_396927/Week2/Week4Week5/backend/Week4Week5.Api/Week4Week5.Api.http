@@ -1,0 +1,25 @@
+@Week4Week5.Api_HostAddress = http://localhost:5206
+
+GET {{Week4Week5.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{Week4Week5.Api_HostAddress}}/api/orders/
+Accept: application/json
+
+###
+
+POST {{Week4Week5.Api_HostAddress}}/api/orders/
+Content-Type: application/json
+
+{
+	"customer": "Alex Morgan",
+	"email": "alex.morgan@example.test",
+	"product": "Enterprise license",
+	"quantity": 2,
+	"unitPrice": 1299,
+	"status": "Pending"
+}
+
+###

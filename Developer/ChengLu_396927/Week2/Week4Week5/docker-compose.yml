@@ -1,0 +1,75 @@
+services:
+  seq:
+    image: datalust/seq:latest
+    environment:
+      ACCEPT_EULA: "Y"
+    ports:
+      - "5341:80"
+      - "5342:5341"
+    volumes:
+      - seq-data:/data
+
+  temporal:
+    image: temporalio/temporal:latest
+    command: ["server", "start-dev", "--ip", "0.0.0.0"]
+    ports:
+      - "7233:7233"
+      - "8233:8233"
+
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      Seq__Url: http://seq:5341
+      Temporal__Address: temporal:7233
+      Portal__Origin: http://localhost:3000
+      Exceptionless__ApiKey: ${EXCEPTIONLESS_API_KEY:-}
+    ports:
+      - "5206:8080"
+    depends_on:
+      - seq
+      - temporal
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:8080/health || exit 1"]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+      start_period: 15s
+
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    environment:
+      TEMPORAL_ADDRESS: temporal:7233
+      SMTP_HOST: mailpit
+      SMTP_PORT: 1025
+      MAIL_FROM: orders@example.test
+      SEQ_URL: http://seq:5341
+    depends_on:
+      - temporal
+      - mailpit
+      - seq
+
+  portal:
+    build:
+      context: .
+      dockerfile: Dockerfile.portal
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:5206
+    ports:
+      - "3000:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  seq-data:
